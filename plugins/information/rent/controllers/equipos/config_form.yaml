@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Equipo
+
+# Model Form Field configuration
+form: $/information/rent/models/equipo/fields.yaml
+
+# Model Class name
+modelClass: Information\Rent\Models\Equipo
+
+# Default redirect location
+defaultRedirect: information/rent/equipos
+
+# Create page
+create:
+    title: Create Equipo
+    redirect: information/rent/equipos/update/:id
+    redirectClose: information/rent/equipos
+
+# Update page
+update:
+    title: Edit Equipo
+    redirect: information/rent/equipos
+    redirectClose: information/rent/equipos
+
+# Preview page
+preview:
+    title: Preview Equipo

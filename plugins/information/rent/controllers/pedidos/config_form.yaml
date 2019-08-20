@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Pedido
+
+# Model Form Field configuration
+form: $/information/rent/models/pedido/fields.yaml
+
+# Model Class name
+modelClass: Information\Rent\Models\Pedido
+
+# Default redirect location
+defaultRedirect: information/rent/pedidos
+
+# Create page
+create:
+    title: Create Pedido
+    redirect: information/rent/pedidos/update/:id
+    redirectClose: information/rent/pedidos
+
+# Update page
+update:
+    title: Edit Pedido
+    redirect: information/rent/pedidos
+    redirectClose: information/rent/pedidos
+
+# Preview page
+preview:
+    title: Preview Pedido

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Despacho
+
+# Model Form Field configuration
+form: $/information/rent/models/despacho/fields.yaml
+
+# Model Class name
+modelClass: Information\Rent\Models\Despacho
+
+# Default redirect location
+defaultRedirect: information/rent/despachos
+
+# Create page
+create:
+    title: Create Despacho
+    redirect: information/rent/despachos/update/:id
+    redirectClose: information/rent/despachos
+
+# Update page
+update:
+    title: Edit Despacho
+    redirect: information/rent/despachos
+    redirectClose: information/rent/despachos
+
+# Preview page
+preview:
+    title: Preview Despacho
